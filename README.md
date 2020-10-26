@@ -1,7 +1,7 @@
 FuyouToken integration/staging tree
 ================================
 
-https://www.FuyouToken.com
+https://www.Fuu.one
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2018 FuyouToken Developers
