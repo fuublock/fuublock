@@ -1,6 +1,7 @@
 # Fuu public chain realizes full functions, privatization and semi open source, and realizes three chain integration and three chain routing in TRX / eth / fuu)
 # FUU公鏈實現全功能,私有化半開源,同時實現在TRX/ETH/FUU三鏈合一，三鏈路由)
 
+
 // 采用TCP
 const PROTOCOL  = "tcp"
 // 發送消息的前12個字節指定了命令名(version)
@@ -22,8 +23,6 @@ const COMMAND_TX  = "tx"
 const BLOCK_TYPE  = "block"
 const TX_TYPE  = "tx"
 ```
-
-
 
 ## Version
 
@@ -620,8 +619,6 @@ func handleTx(request []byte, fuu *Blockchain)  {
 }
 ```
 
-好累啊，終於將一次網絡同步需要通訊的消息類型寫完了。是不是覺得好復雜，其實不然，一會結合實際🌰看過程就好理解多了。
-
 ## Server服務器端
 
 由於我們是在本地模擬網絡環境，所以采用不同的端口號來模擬節點IP地址。eg：localhost:8000代表一個節點，eg：localhost:8001代表一個不同的節點。
@@ -851,7 +848,6 @@ A和B都是既可以充當服務端，也可以充當客戶端。
   9.2 len(unslovedHashes) != 0，如果還有區塊未處理，繼續發送GetData消息，相當於回7.1:B.sendGetData(A,unslovedHashes[0])
 9.3 len(unslovedHashes) == 0,所有A的區塊處理完畢，重置UTXO數據庫
 
->10. 大功告成
 
 ### 挖礦節點參與的同步邏輯
 
@@ -873,5 +869,4 @@ A和B都是既可以充當服務端，也可以充當客戶端。
 
 > 7. A(B).HandleBlock(C. blockData) A和B都會收到C產生的新區塊並添加到自己的區塊鏈上
 
-> 8.大功告成
 
