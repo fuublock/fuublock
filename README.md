@@ -1,3 +1,5 @@
+This is a new era, welcome to FUU's new public chain world
+
 FuyouToken integration/staging tree
 ================================
 
