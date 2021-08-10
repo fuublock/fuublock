@@ -1,5 +1,5 @@
-# PublicBlockChain_FUU
-# FUU基于的公链实现(具备公链全功能,私有化公链)
+# Fuu based public chain implementation (with full functions of public chain and privatization of public chain)
+# FUU基於的公鏈實現(具備公鏈全功能,私有化公鏈)
 
 // 采用TCP
 const PROTOCOL  = "tcp"
