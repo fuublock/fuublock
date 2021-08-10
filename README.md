@@ -1,5 +1,7 @@
 This is a new era, welcome to FUU's new public chain world
 
+Fuu public chain is first used based on the global competitive industry, and is compatible with ETH/TRX and other public chains to realize cross-chain use
+
 FuyouToken integration/staging tree
 ================================
 
