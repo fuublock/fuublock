@@ -4,7 +4,7 @@ FuyouToken integration/staging tree
 https://www.Fuu.one
 
 Copyright (c) 2009-2021 
-Copyright (c) 2018 FuyouToken Developers
+Copyright (c) 2021 FuyouToken Developers hongkong
 
 Development process
 -------------------
