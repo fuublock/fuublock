@@ -1,3 +1,5 @@
+# Welcome to a new world of FUU public chain
+# 歡迎來到一個全新的FUU公鏈的世界
 # Fuu public chain realizes full functions, privatization and semi open source, and realizes three chain integration and three chain routing in TRX / eth / fuu)
 # FUU公鏈實現全功能,私有化半開源,同時實現在TRX/ETH/FUU三鏈合一，三鏈路由)
 
