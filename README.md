@@ -1,5 +1,5 @@
-# Fuu based public chain implementation (with full functions of public chain and privatization of public chain)
-# FUU基於的公鏈實現(具備公鏈全功能,私有化公鏈)
+# Fuu public chain realizes full functions, privatization and semi open source, and realizes three chain integration and three chain routing in TRX / eth / fuu)
+# FUU公鏈實現全功能,私有化半開源,同時實現在TRX/ETH/FUU三鏈合一，三鏈路由)
 
 // 采用TCP
 const PROTOCOL  = "tcp"
