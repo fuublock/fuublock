@@ -1,5 +1,5 @@
 # PublicBlockChain_go 
-# 基于goLang的公链实现(具备公链全功能)
+# FUU基于的公链实现(具备公链全功能,私有化公链)
 
 # 参考资料
 
