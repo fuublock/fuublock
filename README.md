@@ -1,56 +1,15 @@
-This is a new era, welcome to FUU's new public chain world
+# PublicBlockChain_go 
+# 基于goLang的公链实现(具备公链全功能)
 
-Fuu public chain is first used based on the global competitive industry, and is compatible with ETH/TRX and other public chains to realize cross-chain use
+# 参考资料
 
-FuyouToken integration/staging tree
-================================
+### 1. [Building Blockchain in Go-Ivan Kuznetso](https://jeiwan.cc/tags/blockchain/)
 
-https://www.Fuu.one
+### 2.[用 golang 从零开始构建区块链(Bitcoin)系列](https://liuchengxu.gitbooks.io/blockchain-tutorial/content/)
 
-Copyright (c) 2009-2021 
-Copyright (c) 2021 FuyouToken Developers hongkong
+### 3.[《精通比特币第二版》](http://book.8btc.com/books/6/masterbitcoin2cn/_book/trans-preface.html)
 
-Development process
--------------------
+### 4.[Bitcoin Developer Documentation](https://bitcoin.org/en/developer-documentation)
 
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
-
-If it is a simple/trivial/non-controversial change, then one of the FuyouToken
-development team members simply pulls it.
-
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
-
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
-
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/FuyouToken-project/FuyouToken/tags) are created
-regularly to indicate new official, stable release versions of FuyouToken.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
-
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./FuyouToken-qt_test
+### 5.[bitcoin wiki](https://en.bitcoin.it/wiki/Main_Page)
 
